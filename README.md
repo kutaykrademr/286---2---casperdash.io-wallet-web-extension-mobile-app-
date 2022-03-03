@@ -2,7 +2,7 @@
 Grant Proposal | [286-2 casperdash.io wallet ( web, extension, mobile app )](https://portal.devxdao.com/app/proposal/286)
 ------------ | -------------
 Milestone | 2
-Milestone Title | Web wallet - Submission 1
+Milestone Title | Web extension wallet - Submission 1
 OP | Kien Nguyen
 Reviewer | Kutay Karademir <eee.kutay@gmail.com>
 # Milestone Details
@@ -28,18 +28,18 @@ Reviewer | Kutay Karademir <eee.kutay@gmail.com>
    
 **Acceptance criteria:**
 
-- Release a stable version working on mainnet with feature 
-
+- Release a stable version working on mainnet and the extension will be available in chrome marketplace.
+- 
 ## Milestone Submission
 
 The following milestone assets/artifacts were submitted for review:
 
 Repository | Revision Reviewed
 ------------ | -------------
-https://github.com/CasperDash/casperdash-client/tree/develop | 0f3d6be
+https://github.com/CasperDash/casperdash-client/releases/tag/1.1.1 | 7bd87d5
 
 # Install & Usage Testing Procedure and Findings
-Following the instructions in the README of https://github.com/CasperDash/casperdash-client/tree/v1.0.0 and https://github.com/CasperDash/casperdash-api, the reviewer was able to successfully install the library. The reviewer was also able to successfully build the source code for this milestone by using the build script furnished in the root and readme of the repository.
+Following the instructions in the README of https://github.com/CasperDash/casperdash-client/releases/tag/1.1.1 and https://github.com/CasperDash/casperdash-api, the reviewer was able to successfully install the library. The reviewer was also able to successfully build the source code for this milestone by using the build script furnished in the root and readme of the repository.
 
 Pages (Dashboard , History , Stacking , NFT and Token) on the website are working properly.
 ![img.png](casperdashimg.png)
