@@ -110,8 +110,8 @@ The reviewer was unable to build and run the project following the instructions 
 Requirement | Finding
 ------------ | -------------
 Project builds without errors | FAIL
-Documentation provides sufficient installation/execution instructions | PASS
 Project functionality meets/exceeds acceptance criteria and operates without error | FAIL
+Documentation provides sufficient installation/execution instructions | PASS
 
 
 Requirement | Finding
