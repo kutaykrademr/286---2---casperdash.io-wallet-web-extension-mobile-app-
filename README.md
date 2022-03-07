@@ -47,7 +47,7 @@ secp256k1 unavailable, reverting to browser version
 RESTful API server started on: 3001
 testnet
 ```
-The reviewer got the following error while following the instructions in the readme file in project a, but the reviewer was able to run the project by making the following changes in the 'webConfig.js' file.
+The reviewer got the following error while following the instructions in the readme file in project Client, but the reviewer was able to run the project by making the following changes in the 'webConfig.js' file.
 
 ```
 //template: path.resolve(dir, '/template/index.html'),
