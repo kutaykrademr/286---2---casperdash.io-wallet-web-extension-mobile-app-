@@ -105,6 +105,9 @@ Pages on the website are working properly :
 ![img.png](Assets/Dashboard.png)
 ![img.png](Assets/Tokens.png)
 ![img.png](Assets/History.png)
+
+CasperDash Extension working properly :
+
 ![img.png](Assets/casperDash.png)
 
 ## Overall Impression of usage testing
