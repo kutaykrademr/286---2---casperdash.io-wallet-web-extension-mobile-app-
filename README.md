@@ -11,18 +11,15 @@ Reviewer | Kutay Karademir <eee.kutay@gmail.com>
 
 **Details of what will be delivered in milestone:**
 
-- Control of Integration with Casper Singer
 - Control of Integration with Ledger
 - Control of Dashboard
   - View CSPR balance
   - Send/Receive CRPR
-  - CRPS price chart
 - Control of Tokens
   - View token info/balance
   - Send/Receive tokens
   - Add custom token by contract hash
 - Control of History
-  - View transfer transactions history
 - Control of Stacking  
 - Control of NFT 
    
