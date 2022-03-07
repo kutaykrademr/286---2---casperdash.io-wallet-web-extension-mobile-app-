@@ -42,8 +42,10 @@ https://github.com/CasperDash/casperdash-client/releases/tag/1.1.1 | 7bd87d5
 
 Reviewer was able to build and run the project by using the instructions given on the README of the project, after needed parameters entering to the .env file as per the instructions for the api project.
 ```
-Laravel development server started: http://127.0.0.1:8000
-[Thu Dec 30 20:17:33 2021] PHP 7.4.27 Development Server (http://127.0.0.1:8000) started
+[nodemon] starting `node server.js`
+secp256k1 unavailable, reverting to browser version
+RESTful API server started on: 3001
+testnet
 ```
 
 Following the instructions in the README of https://github.com/CasperDash/casperdash-client/releases/tag/1.1.1 and https://github.com/CasperDash/casperdash-api, the reviewer was able to successfully install the library. The reviewer was also able to successfully build the source code for this milestone by using the build script furnished in the root and readme of the repository.
