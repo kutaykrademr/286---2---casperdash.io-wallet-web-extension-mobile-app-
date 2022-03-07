@@ -100,18 +100,15 @@ webpack 5.65.0 compiled successfully in 44928 ms
 ```
 
 
+Following the instructions in the README of https://github.com/CasperDash/casperdash-client/releases/tag/1.1.1 and https://github.com/CasperDash/casperdash-api, The reviewer successfully compiled the api project. But the client project could not be compiled, an error was received. After the changes in the "webConfig.js" and "extensionConfig.js" files, both projects were made to work without any problems.
 
 
-
-
-Following the instructions in the README of https://github.com/CasperDash/casperdash-client/releases/tag/1.1.1 and https://github.com/CasperDash/casperdash-api, the reviewer was able to successfully install the library. The reviewer was also able to successfully build the source code for this milestone by using the build script furnished in the root and readme of the repository.
-
-Pages (Dashboard , History , Stacking , NFT and Token) on the website are working properly.
+Pages on the website are working properly :
 
 
 
 ## Overall Impression of usage testing
-The reviewer was unable to build and run the project following the instructions provided due to a target error in the lib file. But apart from this error the documentation also provides adequate installation/execution instructions for different scenarios. The reviewer thinks that the project functionality will meet the acceptance criteria once the bugs are fixed.
+The reviewer was unable to build and run the project following the instructions provided due to a target error in the webConfig.js and extensionConfig.js But besides this error the documentation also provides adequate installation/execution instructions for different scenarios. The reviewer thinks that the project functionality will meet the acceptance criteria once the bugs are fixed.
 
 Requirement | Finding
 ------------ | -------------
@@ -120,26 +117,20 @@ Documentation provides sufficient installation/execution instructions | PASS
 Project functionality meets/exceeds acceptance criteria and operates without error | FAIL
 
 
-
-Requirement | Finding
------------- | -------------
-Casper signer integration test | PASS
-
 Requirement | Finding
 ------------ | -------------
 Ledger integration test | PASS
 
-Requirement | Part | Finding
+Requirement |  Finding
 ------------ | ------------- | ------------
-Control to View CSPR balance | Dashboard | PASS
-Control to Send/Receive CRPR | Dashboard | PASS
-Control to CRPS price chart  | Dashboard | PASS
-Control to View token info/balance | Token | PASS
-Control to Send/Receive tokens | Token | PASS
-Control to Add custom token by contract hash | Token | PASS
-Control to View NFTs | NFT | PASS
-Control to View transfer transactions history | History | PASS
-Control to Stacking Operations | Staking |PASS
+View CSPR balance |  PASS
+Send/Receive CRPR |  PASS
+Control to View token info/balance | PASS
+Control to Send/Receive tokens | PASS
+Add custom token by contract hash | Token | PASS
+View NFTs | PASS
+View transfer transactions history |  PASS
+Stacking Operations | PASS
 
 
 # Documentation
