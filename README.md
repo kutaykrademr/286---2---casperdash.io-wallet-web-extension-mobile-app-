@@ -127,7 +127,7 @@ View CSPR balance |  PASS
 Send/Receive CRPR |  PASS
 Control to View token info/balance | PASS
 Control to Send/Receive tokens | PASS
-Add custom token by contract hash | Token | PASS
+Add custom token by contract hash | PASS
 View NFTs | PASS
 View transfer transactions history |  PASS
 Stacking Operations | PASS
