@@ -68,6 +68,41 @@ After the change :
 webpack 5.65.0 compiled successfully in 42517 ms
 ```
 
+The reviewer got the following error while following the instructions in the readme file in project Client (II.Browser Extension), but the reviewer was able to run the project by making the following changes in the 'extensionConfig.js' file.
+
+![img.png](Assets/error3.png)
+
+extensionConfig.js additions and changes :
+```
+
+//template: path.resolve(dir, '/template/extension/popup.html'),
+//filename: 'popup.html',
+
+template: path.resolve(dir, 'template/extension/popup.html'),
+filename: 'popup.html',
+			
+//template: path.resolve(dir, '/template/extension/popup.html'),
+//filename: 'home.html',
+
+template: path.resolve(dir, 'template/extension/popup.html'),
+filename: 'home.html',
+			
+```
+```
+//Added.
+	stats:{children:true}
+```
+After the change :
+
+```
+  Child HtmlWebpackCompiler compiled successfully
+webpack 5.65.0 compiled successfully in 44928 ms
+```
+
+
+
+
+
 
 Following the instructions in the README of https://github.com/CasperDash/casperdash-client/releases/tag/1.1.1 and https://github.com/CasperDash/casperdash-api, the reviewer was able to successfully install the library. The reviewer was also able to successfully build the source code for this milestone by using the build script furnished in the root and readme of the repository.
 
