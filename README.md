@@ -110,16 +110,24 @@ Pages (Dashboard , History , Stacking , NFT and Token) on the website are workin
 
 
 
-
 ## Overall Impression of usage testing
+The reviewer was unable to build and run the project following the instructions provided due to a target error in the lib file. But apart from this error the documentation also provides adequate installation/execution instructions for different scenarios. The reviewer thinks that the project functionality will meet the acceptance criteria once the bugs are fixed.
 
-The code was well crafted and well-printed for easy reading.
-Everything was nicely aligned and it was easy to understand what was going on in the libraries as everything was so aptly named.
-The project was successfully compiled and run, There was a difficulty because the code documentation was not prepared well.
+Requirement | Finding
+------------ | -------------
+Project builds without errors | FAIL
+Documentation provides sufficient installation/execution instructions | PASS
+Project functionality meets/exceeds acceptance criteria and operates without error | FAIL
+
+
 
 Requirement | Finding
 ------------ | -------------
 Casper signer integration test | PASS
+
+Requirement | Finding
+------------ | -------------
+Ledger integration test | PASS
 
 Requirement | Part | Finding
 ------------ | ------------- | ------------
@@ -132,7 +140,6 @@ Control to Add custom token by contract hash | Token | PASS
 Control to View NFTs | NFT | PASS
 Control to View transfer transactions history | History | PASS
 Control to Stacking Operations | Staking |PASS
-
 
 
 # Documentation
