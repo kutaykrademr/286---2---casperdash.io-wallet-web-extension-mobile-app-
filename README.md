@@ -49,6 +49,9 @@ testnet
 ```
 The reviewer got the following error while following the instructions in the readme file in project Client (I.Web), but the reviewer was able to run the project by making the following changes in the 'webConfig.js' file.
 
+![img.png](Assets/error1.png)
+![img.png](Assets/error2.png)
+
 webConfig.js additions and changes :
 ```
 //template: path.resolve(dir, '/template/index.html'),
@@ -69,8 +72,7 @@ webpack 5.65.0 compiled successfully in 42517 ms
 Following the instructions in the README of https://github.com/CasperDash/casperdash-client/releases/tag/1.1.1 and https://github.com/CasperDash/casperdash-api, the reviewer was able to successfully install the library. The reviewer was also able to successfully build the source code for this milestone by using the build script furnished in the root and readme of the repository.
 
 Pages (Dashboard , History , Stacking , NFT and Token) on the website are working properly.
-![img.png](casperdashimg.png)
-![img.png](tokenNft.png)
+
 
 
 
