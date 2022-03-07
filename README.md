@@ -47,8 +47,9 @@ secp256k1 unavailable, reverting to browser version
 RESTful API server started on: 3001
 testnet
 ```
-The reviewer got the following error while following the instructions in the readme file in project Client, but the reviewer was able to run the project by making the following changes in the 'webConfig.js' file.
+The reviewer got the following error while following the instructions in the readme file in project Client (I.Web), but the reviewer was able to run the project by making the following changes in the 'webConfig.js' file.
 
+webConfig.js additions and changes :
 ```
 //template: path.resolve(dir, '/template/index.html'),
 template: path.resolve(dir, 'template/index.html'),
@@ -57,7 +58,12 @@ template: path.resolve(dir, 'template/index.html'),
 //Added.
 	stats:{children:true}
 ```
+After the change :
 
+```
+  Child HtmlWebpackCompiler compiled successfully
+webpack 5.65.0 compiled successfully in 42517 ms
+```
 
 
 Following the instructions in the README of https://github.com/CasperDash/casperdash-client/releases/tag/1.1.1 and https://github.com/CasperDash/casperdash-api, the reviewer was able to successfully install the library. The reviewer was also able to successfully build the source code for this milestone by using the build script furnished in the root and readme of the repository.
