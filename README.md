@@ -102,7 +102,10 @@ Following the instructions in the README of https://github.com/CasperDash/casper
 
 Pages on the website are working properly :
 
-
+![img.png](Assets/Dashboard.png)
+![img.png](Assets/Tokens.png)
+![img.png](Assets/History.png)
+![img.png](Assets/casperDash.png)
 
 ## Overall Impression of usage testing
 The reviewer was unable to build and run the project following the instructions provided due to errors in the webConfig.js and extensionConfig.js But besides this error the documentation also provides adequate installation/execution instructions for different scenarios. The reviewer thinks that the project functionality will meet the acceptance criteria once the bugs are fixed.
