@@ -136,34 +136,32 @@ Stacking Operations | PASS
 # Documentation
 
 ### Code Documentation
-The reviewer says that all critical functions of the project have code documents that can be used for automated document generation ,but that a little more information should be given so that the reviewer is not challenged.
+The reviewer says that all critical functions of the project have code documents that can be used for automated document generation.
 
 Requirement | Finding
 ------------ | -------------
-Code Documented | Pass with Notes
+Code Documented | Pass 
 
 ### Project Documentation
 
-The reviewer observed that the README of the project has detailed general and usage documentation. 
-Observes that the project does not have a good level of project documentation, but it is sufficient for the installation and launch of the project.
-All versions of the installations are specified properly, after the necessary installations are made in the required version, it can make the project work.
+The reviewer observed that the project README has detailed general and usage documentation.
+Observes that the project has good project documentation.
+
+All versions of the installations are specified properly, after the necessary installations are made in the required version and if the changes in the config files are provided, it can make the project work.
 
 Requirement | Finding
 ------------ | -------------
-Usage Documented | PASS with Notes
+Usage Documented | PASS 
 
 ## Overall Conclusion on Documentation
 
-The reviewer concludes that the project does not have sufficient documentation.
-The documents provided are only sufficient to run the project.
-Code documentation is not good.
-The reviewer has difficulty understanding the codes.
+The reviewer concludes that the project has sufficient comprehensive general documentation.
 
 # Open Source Practices
 
 ## Licenses
 
-The Project is released under the MIT License
+The Project is released under the MIT License.
 
 Requirement | Finding
 ------------ | -------------
@@ -171,11 +169,11 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-File not found. The project does not contain a CONTRIBUTION policy.
+The project contains a CONTRIBUTION policy.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | FAIL
+OSS contribution best practices | PASS
 
 # Coding Standards
 
@@ -184,12 +182,18 @@ OSS contribution best practices | FAIL
 The coding is well structured and readable. Github site setup is easy and successful.
 
 # Final Conclusion
-Web pages and processes work flawlessly.
-The code and project documentation and process are not well explained.
-Difficulties arose as the milestones were not clearly explained. The audience may find it difficult to understand and more details are recommended.
-The Contribution Policies file could not be found in the project so must be added.
+Web pages works flawlessly.
+
+The code and project documentation and process are well explained.
+
+Errors were encountered while compiling the projects, they could not be compiled with the instructions in the readme file, and the compilation was completed successfully after the changes were made.
+
+In Milestone 1,
+The Contribution Policies file could not be found. In Milestone 2, the problem was seen and the Contribution Policies file was included in the project.
+
+The reviewer thinks that after the deficiencies in the project are corrected, the project will be pass.
 
 # Recommendation
 
-Recommendation | PASS with Notes
+Recommendation | FAIL
 ------------ | -------------
