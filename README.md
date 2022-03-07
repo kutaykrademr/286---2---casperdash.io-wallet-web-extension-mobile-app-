@@ -76,16 +76,16 @@ extensionConfig.js additions and changes :
 ```
 
 //template: path.resolve(dir, '/template/extension/popup.html'),
-//filename: 'popup.html',
+//filename: 'popup.html'
 
-template: path.resolve(dir, 'template/extension/popup.html'),
-filename: 'popup.html',
-			
 //template: path.resolve(dir, '/template/extension/popup.html'),
-//filename: 'home.html',
+//filename: 'home.html'
 
 template: path.resolve(dir, 'template/extension/popup.html'),
-filename: 'home.html',
+filename: 'popup.html'
+			
+template: path.resolve(dir, 'template/extension/popup.html'),
+filename: 'home.html'
 			
 ```
 ```
