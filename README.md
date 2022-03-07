@@ -29,7 +29,7 @@ Reviewer | Kutay Karademir <eee.kutay@gmail.com>
 **Acceptance criteria:**
 
 - Release a stable version working on mainnet and the extension will be available in chrome marketplace.
-- 
+
 ## Milestone Submission
 
 The following milestone assets/artifacts were submitted for review:
