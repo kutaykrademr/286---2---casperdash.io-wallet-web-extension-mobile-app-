@@ -61,7 +61,7 @@ template: path.resolve(dir, 'template/index.html'),
 //Added.
 	stats:{children:true}
 ```
-After the change :
+After the changes :
 
 ```
   Child HtmlWebpackCompiler compiled successfully
@@ -92,7 +92,7 @@ filename: 'home.html'
 //Added.
 	stats:{children:true}
 ```
-After the change :
+After the changes :
 
 ```
   Child HtmlWebpackCompiler compiled successfully
