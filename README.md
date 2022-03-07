@@ -105,7 +105,7 @@ Pages on the website are working properly :
 
 
 ## Overall Impression of usage testing
-The reviewer was unable to build and run the project following the instructions provided due to a target error in the webConfig.js and extensionConfig.js But besides this error the documentation also provides adequate installation/execution instructions for different scenarios. The reviewer thinks that the project functionality will meet the acceptance criteria once the bugs are fixed.
+The reviewer was unable to build and run the project following the instructions provided due to errors in the webConfig.js and extensionConfig.js But besides this error the documentation also provides adequate installation/execution instructions for different scenarios. The reviewer thinks that the project functionality will meet the acceptance criteria once the bugs are fixed.
 
 Requirement | Finding
 ------------ | -------------
