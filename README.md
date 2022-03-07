@@ -122,7 +122,7 @@ Requirement | Finding
 Ledger integration test | PASS
 
 Requirement |  Finding
------------- | ------------- | ------------
+------------ | ------------- 
 View CSPR balance |  PASS
 Send/Receive CRPR |  PASS
 Control to View token info/balance | PASS
